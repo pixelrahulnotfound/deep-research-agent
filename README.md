@@ -135,10 +135,7 @@ Claude/claude_desktop_config.json file (adjust paths and API keys as needed):
 }
 ```
 
-This allows tools like Claude Desktop to manage and launch the MCP server
-automatically.
 
-![Claude Desktop Demo](./assets/mcp-demo.png)
 
 ## Project Structure
 
