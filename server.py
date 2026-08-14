@@ -32,7 +32,7 @@ if __name__ == "__main__":
 #       "command": "python",
 #       "args": [
 #         "--directory",
-#         "/Users/arindammajumder/Developer/Python/awesome-llm-apps/advance_ai_agents/deep_researcher_agent",
+#         "/Your/Path/to/deep-research-agent",
 #         "run",
 #         "server.py"
 #       ],
