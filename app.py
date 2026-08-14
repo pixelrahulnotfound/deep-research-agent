@@ -46,10 +46,6 @@ with st.sidebar:
     - **Writer**: Produces a final, polished report.
     """
     )
-    st.markdown("---")
-    st.markdown(
-        "Developed with ❤️ by [Arindam Majumder](https://www.youtube.com/c/Arindam_1729)"
-    )
 
 # Chat input at the bottom
 user_input = st.chat_input("Ask a question about your documents...")
