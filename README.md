@@ -53,13 +53,13 @@ Follow these steps to set up the **Deep Researcher Agent** on your machine:
 2. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/Arindam200/awesome-ai-apps.git
+   git clone https://github.com/pixelrahulnotfound/deep-research-agent.git
    ```
 
-3. **Navigate to the Deep Researcher Agent directory:**
+3. **Navigate to the project directory:**
 
    ```bash
-   cd awesome-ai-apps/advance_ai_agents/deep_researcher_agent
+   cd deep-research-agent
    ```
 
 4. **Install all dependencies:**
@@ -122,7 +122,7 @@ Claude/claude_desktop_config.json file (adjust paths and API keys as needed):
       "command": "python",
       "args": [
         "--directory",
-        "/Your/Path/to/directory/awesome-ai-apps/advance_ai_agents/deep_researcher_agent",
+        "/Your/Path/to/directory/deep-research-agent",
         "run",
         "server.py"
       ],
@@ -135,12 +135,10 @@ Claude/claude_desktop_config.json file (adjust paths and API keys as needed):
 }
 ```
 
-
-
 ## Project Structure
 
 ```
-deep_researcher_agent/
+deep-research-agent/
 ├── app.py              # Streamlit web interface
 ├── agents.py           # Core agent workflow
 ├── server.py           # MCP server
@@ -149,7 +147,7 @@ deep_researcher_agent/
 └── README.md           # This file
 ```
 
---------------------------------------------------------------------------------
+---
 
 ## Development
 
@@ -172,11 +170,11 @@ uv run mypy .
 uv run pytest
 ```
 
---------------------------------------------------------------------------------
+---
 
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request or open an
 issue.
 
---------------------------------------------------------------------------------
+---
